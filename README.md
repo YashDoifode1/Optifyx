@@ -27,7 +27,7 @@ Create a program to evaluate password strength based on:
 - Digits and special characters
 
 📁 Code: [`Task 1 - password_checker.py`](./Task%201/password.py)
-<img src="./screenshots/1.PNG" width="500"/>
+
 
 ---
 
@@ -37,8 +37,6 @@ Implement encryption/decryption using:
 - Vigenère Cipher
 
 📁 Code: [`Task 2 - encryption_tool.py`](./Task%202/cipher_tool.py)
-<img src="./screenshots/2.1.PNG" width="500"/>
-<img src="./screenshots/2.2.PNG" width="500"/>
 
 
 ---
@@ -50,8 +48,7 @@ Build a tool to capture and analyze packets:
 - Protocol, source/destination IPs, port info, and size
 
 📁 Code: [`Task 3 - packet_sniffer.py`](./Task%203/sniffer_3.py)
-<img src="./screenshots/3.PNG" width="500"/>
-<img src="./screenshots/3.3.PNG" width="500"/>
+
 
 
 
@@ -64,7 +61,7 @@ Create a scanner to detect:
 - Export a structured report (JSON/CSV)
 
 📁 Code: [`Task 4 - vulnerability_scanner.py`](./Task%204/vul_scanner.py)
-<img src="./screenshots/4.PNG" width="500"/>
+
 
 ---
 
@@ -76,7 +73,7 @@ A Python SFTP client using `paramiko` and `tkinter`:
 - List remote directory contents
 
 📁 Code: [`Task 5 - sftp_client_gui.py`](./Task%205/ftp_client.py)
-<img src="./screenshots/5.PNG" width="500"/>
+
 
 
 ---
@@ -118,26 +115,33 @@ Build an IDS using:
 ## 📸 Screenshots / Demo
 
 ### 🔐 Task 1 – Password Strength Checker
+<img src="./screenshots/1.PNG" width="500"/>
 
 
 ---
 
 ### 🔐 Task 2 – Encryption and Decryption
+<img src="./screenshots/2.1.PNG" width="500"/>
+<img src="./screenshots/2.2.PNG" width="500"/>
+
 
 
 ---
 
 ### 🌐 Task 3 – Network Packet Sniffer
+<img src="./screenshots/3.PNG" width="500"/>
+<img src="./screenshots/3.3.PNG" width="500"/>
 
 
 ---
 
 ### 🛡️ Task 4 – Vulnerability Scanner
+<img src="./screenshots/4.PNG" width="500"/>
 
 ---
 
 ### 🔐 Task 5 – SFTP Client GUI
-
+<img src="./screenshots/5.PNG" width="500"/>
 
 
 ## 👨‍💻 About Me
