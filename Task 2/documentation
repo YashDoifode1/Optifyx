@@ -1,0 +1,271 @@
+Vigenère Cipher Tool Documentation
+1. Overview
+The Vigenère Cipher Tool is a professional-grade desktop application built with Python and Tkinter, designed for encrypting and decrypting text using Vigenère and Caesar ciphers. The tool features a modern, user-friendly graphical user interface (GUI) with advanced functionalities tailored for secure and efficient text processing. It is suitable for users requiring reliable encryption/decryption capabilities, such as security professionals, educators, or hobbyists.
+1.1 Purpose
+The tool provides a robust platform for:
+
+Encrypting and decrypting text using Vigenère or Caesar ciphers.
+Managing encryption keys securely.
+Processing text from files for batch operations.
+Maintaining a history of operations for auditing.
+Supporting custom alphabets for flexible cipher configurations.
+
+1.2 Key Features
+
+Cipher Modes: Supports Vigenère and Caesar ciphers, selectable via a dropdown.
+Key Management: Generate, save, and load encryption keys.
+File Input/Output: Load text from .txt files and save results.
+Key Strength Indicator: Real-time feedback on key strength (None/Weak/Medium/Strong for Vigenère, Valid/Invalid for Caesar).
+History Log: Displays the last 10 encryption/decryption operations with timestamps.
+Clipboard Support: Copy results to the clipboard.
+Keyboard Shortcuts: Ctrl+E (encrypt), Ctrl+D (decrypt), Ctrl+C (clear), Ctrl+Y (copy).
+Custom Alphabet: Optional custom alphabet for ciphers (default: A-Z).
+Error Logging: Logs errors to cipher_tool.log for debugging.
+Modern UI: Uses ttkbootstrap "darkly" theme for a professional look.
+Tooltips: Hover-over tooltips for user guidance.
+Help Menu: Provides an "About" section with application details.
+
+2. Installation
+2.1 Prerequisites
+
+Python: Version 3.6 or higher (tested with 3.12).
+Operating System: Windows, macOS, or Linux.
+Dependencies:
+ttkbootstrap: For modern theming (pip install ttkbootstrap).
+Standard Python libraries: tkinter, json, logging, random, string, datetime, os.
+
+
+
+2.2 Installation Steps
+
+Install Python:
+
+Download and install Python from python.org.
+Ensure pip is available and Tkinter is included (it’s part of the standard library).
+
+
+Install ttkbootstrap:
+pip install ttkbootstrap
+
+
+Download the Application:
+
+Save the vigenere_cipher_gui_enhanced.py file to your desired directory (e.g., C:\Users\YourName\Desktop\Project).
+
+
+Optional: Add Icons:
+
+Place 16x16 or 24x24 PNG files named encrypt.png, decrypt.png, clear.png, and copy.png in the same directory as the script for button icons. If not available, the application will function without icons.
+
+
+Run the Application:
+python vigenere_cipher_gui_enhanced.py
+
+
+
+2.3 Directory Structure
+After setup, your project directory should look like this:
+Project/
+├── vigenere_cipher_gui_enhanced.py
+├── encrypt.png (optional)
+├── decrypt.png (optional)
+├── clear.png (optional)
+├── copy.png (optional)
+├── cipher_tool.log (generated after errors)
+├── input.txt (example input file)
+├── output.txt (example output file)
+├── key.key (example saved key file)
+
+3. Usage
+3.1 Launching the Application
+Run the script to open the GUI:
+python vigenere_cipher_gui_enhanced.py
+
+The application opens a window with a modern interface, featuring input fields, buttons, and a history log.
+3.2 Interface Overview
+
+Cipher Mode: Dropdown to select "Vigenère" or "Caesar".
+Input Text: Text area for entering text to encrypt/decrypt.
+Key: Entry field for the encryption/decryption key (letters for Vigenère, number for Caesar).
+Key Strength Indicator: Displays key strength (updated in real-time).
+Custom Alphabet: Optional field for custom alphabet (default: A-Z).
+Buttons:
+Encrypt: Encrypts the input text.
+Decrypt: Decrypts the input text.
+Clear: Resets all fields.
+Copy Result: Copies output to clipboard.
+Save Result: Saves output to a .txt file.
+Load File: Loads text from a .txt file.
+Generate Key: Creates a random 12-character key (Vigenère only).
+Save Key: Saves the key to a .key file.
+Load Key: Loads a key from a .key file.
+
+
+Output: Displays the encrypted/decrypted result.
+History: Shows the last 10 operations with timestamps.
+Help Menu: Access the "About" section via the top menu bar.
+
+3.3 Usage Instructions
+
+Select Cipher Mode:
+Choose "Vigenère" for a polyalphabetic cipher or "Caesar" for a fixed-shift cipher.
+
+
+Enter Input Text:
+Type text in the input area or click "Load File" to import from a .txt file.
+
+
+Enter Key:
+For Vigenère: Enter a letter-based key (e.g., "SECRET").
+For Caesar: Enter a number (e.g., "3").
+Use "Generate Key" for a random Vigenère key.
+Use "Load Key" to import a saved key.
+
+
+Optional: Custom Alphabet:
+Enter a custom alphabet (e.g., "ABC123") or leave as default ("ABCDEFGHIJKLMNOPQRSTUVWXYZ").
+
+
+Encrypt/Decrypt:
+Click "Encrypt" or "Decrypt" (or use Ctrl+E/Ctrl+D).
+The result appears in the output area and is logged in the history.
+
+
+Save or Copy Output:
+Click "Copy Result" (Ctrl+Y) to copy the output.
+Click "Save Result" to save to a .txt file.
+
+
+Clear Fields:
+Click "Clear" (Ctrl+C) to reset the interface.
+
+
+View History:
+Scroll the history list to review recent operations.
+
+
+Access Help:
+Click "Help" > "About" for application details.
+
+
+
+3.4 Keyboard Shortcuts
+
+Ctrl+E: Encrypt
+Ctrl+D: Decrypt
+Ctrl+C: Clear
+Ctrl+Y: Copy result
+
+3.5 Tooltips
+Hover over the following components for guidance:
+
+Input Text: "Enter text to encrypt or decrypt"
+Key: "Enter the encryption/decryption key (letters for Vigenère, number for Caesar)"
+Custom Alphabet: "Enter custom alphabet or leave as default (A-Z)"
+Cipher Mode: "Select cipher mode: Vigenère or Caesar"
+
+4. Technical Details
+4.1 Architecture
+
+Language: Python 3.12 (compatible with 3.6+).
+GUI Framework: Tkinter with ttkbootstrap for theming.
+Cipher Algorithms:
+Vigenère: Polyalphabetic substitution using a repeating key.
+Caesar: Monoalphabetic substitution with a fixed shift.
+
+
+File Handling:
+Text files (.txt) for input/output.
+JSON-based key files (.key) for key storage.
+
+
+Error Logging: Saves errors to cipher_tool.log.
+
+4.2 Code Structure
+
+Class: VigenereCipherApp
+Initializes the GUI and handles all functionality.
+
+
+Helper Class: CustomTooltip
+Implements hover-over tooltips using tk.Toplevel.
+
+
+Key Methods:
+vigenere_cipher: Implements Vigenère encryption/decryption.
+caesar_cipher: Implements Caesar encryption/decryption.
+generate_key: Creates a random 12-character key.
+save_key/load_key: Manages key storage.
+load_file/save_result: Handles file I/O.
+copy_to_clipboard: Copies output to clipboard.
+validate_key_real_time: Updates key strength indicator.
+validate_input: Ensures valid input before processing.
+add_to_history: Logs operations.
+show_about: Displays application info.
+
+
+
+4.3 Algorithm Details
+
+Vigenère Cipher:
+Uses a key to shift each character based on its position in the alphabet.
+Formula (encrypt): ( E = (P + K) \mod |A| ), where ( P ) is plaintext position, ( K ) is key position, ( |A| ) is alphabet length.
+Formula (decrypt): ( D = (C - K) \mod |A| ), where ( C ) is ciphertext position.
+
+
+Caesar Cipher:
+Shifts all characters by a fixed number.
+Formula (encrypt): ( E = (P + S) \mod |A| ), where ( S ) is the shift.
+Formula (decrypt): ( D = (C - S) \mod |A| ).
+
+
+Custom Alphabet: Both ciphers support user-defined alphabets, defaulting to A-Z.
+
+4.4 Error Handling
+
+Input validation prevents empty or invalid inputs.
+Exceptions during file operations or cipher processing are logged to cipher_tool.log and displayed to the user via message boxes.
+
+5. Troubleshooting
+5.1 Common Issues
+
+Error: "No module named 'ttkbootstrap'":
+Install ttkbootstrap: pip install ttkbootstrap.
+
+
+Error: Missing icon files:
+Remove image and compound parameters from ttk.Button calls or provide encrypt.png, decrypt.png, clear.png, and copy.png in the project directory.
+
+
+Error: File I/O fails:
+Check file permissions and ensure the directory is writable.
+Review cipher_tool.log for detailed error messages.
+
+
+Tooltip not showing:
+Ensure the mouse hovers over the widget for at least 1 second.
+The custom tooltip uses standard Tkinter and should work on all platforms.
+
+
+
+5.2 Debugging
+
+Check cipher_tool.log for logged errors.
+Ensure Python and Tkinter are properly installed (run python -m tkinter to test).
+Test with small inputs and default alphabet before using custom settings.
+
+6. Future Enhancements
+
+Advanced Tooltips: Use a library like tkinter-tooltip for more robust tooltips.
+Batch Processing UI: Add a dedicated interface for processing multiple inputs.
+Key Encryption: Add password protection for saved keys using the cryptography library.
+Export Formats: Support additional output formats (e.g., CSV, JSON).
+Localization: Add multi-language support for the GUI.
+
+7. About
+
+Version: 1.0
+Developed by: xAI
+Last Updated: July 20, 2025
+
+This documentation provides a clear, systematic guide to using and maintaining the Vigenère Cipher Tool. For further assistance, consult the error log or contact the development team.

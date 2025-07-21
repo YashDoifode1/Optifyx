@@ -1,0 +1,60 @@
+
+A GUI-based network packet sniffer with real-time analysis capabilities, built with Python and Scapy. This tool provides Wireshark-like functionality including live packet capture, protocol filtering, and detailed packet inspection.
+
+
+
+## Features
+
+- **Real-time packet capture** with millisecond timestamp precision
+- **BPF filter support** (same syntax as Wireshark/tcpdump)
+- **Multi-protocol analysis** (TCP, UDP, ICMP, ARP, HTTP, DNS)
+- **Detailed packet inspection** with layer-by-layer breakdown
+- **Capture statistics** with protocol distribution and rate calculation
+- **PCAP export** for saving captures
+- **Responsive GUI** with auto-scrolling and clean interface
+- **Cross-platform** (Windows, Linux, macOS)
+
+## Installation
+
+### Prerequisites
+- Python 3.7+
+- Administrative/root privileges (for packet capture)
+
+### Steps
+1. Clone the repository:
+   
+   Install dependencies:
+
+bash
+pip install -r requirements.txt
+Or manually install:
+
+bash
+pip install scapy tkinter
+Run the sniffer:
+
+bash
+python packet_sniffer.py
+Usage
+Basic Operation
+Start Capture: Click "Start Sniffing" to begin
+
+Apply Filters: Enter BPF syntax in the filter field (e.g., tcp port 80)
+
+Inspect Packets: Click any packet to view detailed analysis
+
+Save Captures: Export to PCAP for analysis in Wireshark
+
+Filter Examples
+Filter	Description
+tcp	TCP packets only
+port 443	HTTPS traffic
+host 192.168.1.1	Traffic to/from specific IP
+net 192.168.1.0/24	Entire subnet
+src 10.0.0.5 and dst port 80	HTTP requests from specific source
+Keyboard Shortcuts
+Ctrl+S: Save current capture
+
+Ctrl+F: Focus filter field
+
+Ctrl+C: Clear display (when stopped)
