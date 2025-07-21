@@ -26,7 +26,7 @@ Create a program to evaluate password strength based on:
 - Uppercase/lowercase characters
 - Digits and special characters
 
-📁 Code: [`Task 1 - password_checker.py`](./Task%201/password_checker.py)
+📁 Code: [`Task 1 - password_checker.py`](./Task%201/password.py)
 
 ---
 
@@ -35,7 +35,7 @@ Implement encryption/decryption using:
 - Caesar Cipher or
 - Vigenère Cipher
 
-📁 Code: [`Task 2 - encryption_tool.py`](./Task%202/encryption_tool.py)
+📁 Code: [`Task 2 - encryption_tool.py`](./Task%202/cipher_tool.py)
 
 ---
 
@@ -45,7 +45,7 @@ Implement encryption/decryption using:
 Build a tool to capture and analyze packets:
 - Protocol, source/destination IPs, port info, and size
 
-📁 Code: [`Task 3 - packet_sniffer.py`](./Task%203/packet_sniffer.py)
+📁 Code: [`Task 3 - packet_sniffer.py`](./Task%203/sniffer_3.py)
 
 ---
 
@@ -55,7 +55,7 @@ Create a scanner to detect:
 - Outdated software
 - Export a structured report (JSON/CSV)
 
-📁 Code: [`Task 4 - vulnerability_scanner.py`](./Task%204/vulnerability_scanner.py)
+📁 Code: [`Task 4 - vulnerability_scanner.py`](./Task%204/vul_scanner.py)
 
 ---
 
@@ -66,7 +66,7 @@ A Python SFTP client using `paramiko` and `tkinter`:
 - Upload / download files securely
 - List remote directory contents
 
-📁 Code: [`Task 5 - sftp_client_gui.py`](./Task%205/sftp_client_gui.py)
+📁 Code: [`Task 5 - sftp_client_gui.py`](./Task%205/ftp_client.py)
 
 ---
 
