@@ -108,8 +108,8 @@ Build an IDS using:
 ## 👨‍💻 About Me
 
 **Name:** John Deo  
-**LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-**Email:** johndeo@example.com  
+**LinkedIn:** [[linkedin.com/in/your-profile](https://www.linkedin.com/in/yash-doifode-a88a62238/)]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/yash-doifode-a88a62238/))  
+**Email:** yashdoifode1439@gmail.com  
 
 ---
 
