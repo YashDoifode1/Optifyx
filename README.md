@@ -104,29 +104,29 @@ Build an IDS using:
 ## 📸 Screenshots / Demo
 
 ### 🔐 Task 1 – Password Strength Checker
-<img src="./screenshots/1.png" width="500"/>
+<img src="./screenshots/1.PNG" width="500"/>
 
 ---
 
 ### 🔐 Task 2 – Encryption and Decryption
-<img src="./screenshots/2.1.png" width="500"/>
-<img src="./screenshots/2.2.png" width="500"/>
+<img src="./screenshots/2.1.PNG" width="500"/>
+<img src="./screenshots/2.2.PNG" width="500"/>
 
 ---
 
 ### 🌐 Task 3 – Network Packet Sniffer
-<img src="./screenshots/3.png" width="500"/>
-<img src="./screenshots/3.3.png" width="500"/>
+<img src="./screenshots/3.PNG" width="500"/>
+<img src="./screenshots/3.3.PNG" width="500"/>
 
 ---
 
 ### 🛡️ Task 4 – Vulnerability Scanner
-<img src="./screenshots/4.png" width="500"/>
+<img src="./screenshots/4.PNG" width="500"/>
 
 ---
 
 ### 🔐 Task 5 – SFTP Client GUI
-<img src="./screenshots/5.png" width="500"/>
+<img src="./screenshots/5.PNG" width="500"/>
 
 
 ## 👨‍💻 About Me
