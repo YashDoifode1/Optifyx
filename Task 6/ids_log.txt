@@ -1,0 +1,114 @@
+2025-08-12 15:19:55,379 - ERROR - Socket error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions. Run as administrator with Npcap installed.
+2025-08-12 15:24:10,964 - ERROR - Socket error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions. Run as administrator with Npcap installed.
+2025-08-12 15:24:23,320 - ERROR - Socket error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions. Run as administrator with Npcap installed.
+2025-08-12 15:24:30,172 - ERROR - Socket error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions. Run as administrator with Npcap installed.
+2025-08-12 15:33:47.454 - ERROR - Socket error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-08-12 15:35:29.567 - INFO - Email config updated.
+2025-08-12 15:40:14.101 - INFO - IDS monitoring stopped.
+2025-08-12 15:40:16.302 - ERROR - Socket error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-08-12 15:41:38.133 - ERROR - Socket error with protocol 0: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-08-12 15:41:38.133 - ERROR - Socket error with protocol 255: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-08-12 15:41:38.133 - ERROR - Socket error with protocol 6: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-08-12 15:50:43.919 - INFO - IDS monitoring stopped.
+2025-08-12 15:50:51.769 - ERROR - Socket error with protocol 0: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-08-12 15:50:51.771 - ERROR - Socket error with protocol 255: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-08-12 15:50:51.771 - ERROR - Socket error with protocol 6: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-08-12 15:51:11.238 - INFO - IDS monitoring stopped.
+2025-08-12 15:52:53.791 - ERROR - Promiscuous mode error: [WinError 10022] An invalid argument was supplied
+2025-08-12 15:52:53.791 - INFO - IDS monitoring started with protocol 0.
+2025-08-12 16:10:08.609 - WARNING - ALERT: Network Error - ICMP Destination Unreachable (Type: 3, Code: 1) from 10.105.155.111 to 10.105.155.111
+2025-08-12 16:10:14.095 - WARNING - ALERT: Network Error - ICMP Destination Unreachable (Type: 3, Code: 1) from 10.105.155.111 to 10.105.155.111
+2025-08-12 16:55:40.750 - INFO - IDS monitoring stopped.
+2025-08-12 16:56:17.493 - ERROR - Promiscuous mode error: [WinError 10022] An invalid argument was supplied
+2025-08-12 16:56:17.509 - INFO - IDS monitoring started with protocol 0.
+2025-08-12 16:59:39.492 - INFO - IDS monitoring stopped.
+2025-08-12 16:59:47.007 - ERROR - Promiscuous mode error: [WinError 10022] An invalid argument was supplied
+2025-08-12 16:59:47.007 - INFO - IDS monitoring started with protocol 0.
+2025-08-12 17:00:49.970 - INFO - IDS monitoring stopped.
+2025-08-12 17:00:57.407 - ERROR - Promiscuous mode error: [WinError 10022] An invalid argument was supplied
+2025-08-12 17:00:57.407 - INFO - IDS monitoring started with protocol 0.
+2025-08-12 17:01:33.844 - INFO - IDS monitoring stopped.
+2025-08-12 17:08:18.773 - INFO - Interface: Realtek RTL8821CE 802.11ac PCIe Adapter, IP: 10.105.155.111
+2025-08-12 17:08:18.925 - INFO - Promiscuous mode enabled.
+2025-08-12 17:08:18.925 - INFO - IDS started with protocol 0, bound to 10.105.155.111.
+2025-08-12 17:15:55.146 - WARNING - ALERT: Possible SYN flood from 10.105.155.111 to 34.95.145.254:443 (count: 6)
+2025-08-12 17:16:50.585 - WARNING - ALERT: Possible SYN flood from 10.105.155.111 to 23.212.0.11:443 (count: 6)
+2025-08-12 17:16:50.672 - WARNING - ALERT: Possible SYN flood from 10.105.155.111 to 23.212.0.11:443 (count: 7)
+2025-08-12 17:16:50.763 - WARNING - ALERT: Possible SYN flood from 10.105.155.111 to 23.212.0.11:443 (count: 8)
+2025-08-12 17:16:51.269 - WARNING - ALERT: Possible SYN flood from 10.105.155.111 to 23.212.0.11:443 (count: 9)
+2025-08-12 17:16:54.481 - WARNING - ALERT: Possible SYN flood from 10.105.155.111 to 23.53.243.15:443 (count: 6)
+2025-08-12 17:16:55.484 - WARNING - ALERT: Possible SYN flood from 10.105.155.111 to 23.53.243.15:443 (count: 7)
+2025-08-12 17:16:55.491 - WARNING - ALERT: Possible SYN flood from 10.105.155.111 to 23.53.243.15:443 (count: 8)
+2025-08-12 17:16:55.499 - WARNING - ALERT: Possible SYN flood from 10.105.155.111 to 23.53.243.15:443 (count: 9)
+2025-08-12 17:16:55.525 - WARNING - ALERT: Possible SYN flood from 10.105.155.111 to 23.53.243.15:443 (count: 10)
+2025-08-12 17:16:55.552 - WARNING - ALERT: Possible SYN flood from 10.105.155.111 to 23.53.243.15:443 (count: 11)
+2025-08-12 17:16:55.586 - WARNING - ALERT: Possible SYN flood from 10.105.155.111 to 23.53.243.15:443 (count: 12)
+2025-08-12 17:21:53.805 - INFO - IDS monitoring stopped.
+2025-08-12 17:22:13.990 - INFO - Interface: Realtek RTL8821CE 802.11ac PCIe Adapter, IP: 10.105.155.111
+2025-08-12 17:22:14.006 - INFO - Promiscuous mode enabled.
+2025-08-12 17:22:14.009 - INFO - IDS started with protocol 0, bound to 10.105.155.111.
+2025-08-12 17:23:34.784 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 11 ports)
+2025-08-12 17:23:55.805 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 22 ports)
+2025-08-12 17:24:05.885 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 22 ports)
+2025-08-12 17:25:08.036 - INFO - Interface: Realtek RTL8821CE 802.11ac PCIe Adapter, IP: 10.105.155.111
+2025-08-12 17:25:08.072 - INFO - Promiscuous mode enabled.
+2025-08-12 17:25:08.074 - INFO - IDS started with protocol 0, bound to 10.105.155.111.
+2025-08-12 17:26:10.758 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 11 ports)
+2025-08-12 17:26:33.016 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 22 ports)
+2025-08-12 17:26:47.468 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 22 ports)
+2025-08-12 17:26:59.791 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 22 ports)
+2025-08-12 17:30:11.105 - INFO - IDS monitoring stopped.
+2025-08-12 17:54:50.491 - INFO - Promiscuous mode enabled.
+2025-08-12 17:54:50.507 - INFO - IDS started with protocol 0, bound to 10.105.155.111.
+2025-08-12 17:55:17.082 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 11 ports)
+2025-08-12 18:07:41.580 - INFO - IDS monitoring stopped.
+2025-08-12 18:07:48.294 - INFO - IDS monitoring stopped.
+2025-08-12 18:07:59.647 - INFO - Interface: Realtek RTL8821CE 802.11ac PCIe Adapter, IP: 10.105.155.111
+2025-08-12 18:07:59.677 - INFO - Promiscuous mode enabled.
+2025-08-12 18:07:59.680 - INFO - IDS started with protocol 0, bound to 10.105.155.111.
+2025-08-12 18:08:26.392 - INFO - IDS monitoring stopped.
+2025-08-12 18:09:21.961 - INFO - Interface: Realtek RTL8821CE 802.11ac PCIe Adapter, IP: 10.105.155.111
+2025-08-12 18:09:21.989 - INFO - Promiscuous mode enabled.
+2025-08-12 18:09:21.991 - INFO - IDS started with protocol 0, bound to 10.105.155.111.
+2025-08-12 18:13:23.595 - WARNING - Network Error Detected: ICMP Destination Unreachable (Type: 3, Code: 1) from 10.105.155.111 to 10.105.155.111
+2025-08-12 18:13:33.606 - WARNING - Network Error Detected: ICMP Destination Unreachable (Type: 3, Code: 1) from 10.105.155.111 to 10.105.155.111
+2025-08-12 18:13:46.598 - WARNING - Network Error Detected: ICMP Destination Unreachable (Type: 3, Code: 1) from 10.105.155.111 to 10.105.155.111
+2025-08-12 18:14:11.601 - WARNING - Network Error Detected: ICMP Destination Unreachable (Type: 3, Code: 1) from 10.105.155.111 to 10.105.155.111
+2025-08-12 18:14:31.605 - WARNING - Network Error Detected: ICMP Destination Unreachable (Type: 3, Code: 1) from 10.105.155.111 to 10.105.155.111
+2025-08-12 18:15:16.604 - WARNING - Network Error Detected: ICMP Destination Unreachable (Type: 3, Code: 1) from 10.105.155.111 to 10.105.155.111
+2025-08-12 18:18:11.670 - INFO - IDS monitoring stopped.
+2025-08-12 18:18:25.188 - INFO - Interface: Realtek RTL8821CE 802.11ac PCIe Adapter, IP: 10.105.155.111
+2025-08-12 18:18:25.212 - INFO - Promiscuous mode enabled.
+2025-08-12 18:18:25.223 - INFO - IDS started with protocol 0, bound to 10.105.155.111.
+2025-08-12 18:19:08.467 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 11 ports)
+2025-08-12 18:19:26.885 - INFO - IDS monitoring stopped.
+2025-08-12 18:19:34.046 - INFO - IDS monitoring stopped.
+2025-08-12 18:24:36.306 - INFO - IDS monitoring stopped.
+2025-08-12 18:29:20.604 - INFO - Interface: Realtek RTL8821CE 802.11ac PCIe Adapter, IP: 10.105.155.111
+2025-08-12 18:29:20.630 - INFO - Promiscuous mode enabled.
+2025-08-12 18:29:20.630 - INFO - IDS started with protocol 0, bound to 10.105.155.111.
+2025-08-12 18:29:43.473 - INFO - IDS monitoring stopped.
+2025-08-12 18:29:56.315 - INFO - Interface: Realtek RTL8821CE 802.11ac PCIe Adapter, IP: 10.105.155.111
+2025-08-12 18:29:56.343 - INFO - Promiscuous mode enabled.
+2025-08-12 18:29:56.349 - INFO - IDS started with protocol 0, bound to 10.105.155.111.
+2025-08-12 18:30:17.045 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 11 ports)
+2025-08-12 18:30:27.295 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 23 ports)
+2025-08-12 18:30:37.346 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 23 ports)
+2025-08-12 18:30:47.394 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 23 ports)
+2025-08-12 18:30:48.179 - INFO - IDS monitoring stopped.
+2025-08-12 18:30:51.642 - INFO - IDS monitoring stopped.
+2025-08-12 18:31:30.088 - INFO - Interface: Realtek RTL8821CE 802.11ac PCIe Adapter, IP: 10.105.155.111
+2025-08-12 18:31:30.121 - INFO - Promiscuous mode enabled.
+2025-08-12 18:31:30.124 - INFO - IDS started with protocol 0, bound to 10.105.155.111.
+2025-08-12 18:31:55.860 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 11 ports)
+2025-08-12 18:32:08.398 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 24 ports)
+2025-08-12 18:32:18.432 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 24 ports)
+2025-08-12 18:32:27.303 - INFO - IDS monitoring stopped.
+2025-08-12 18:32:47.362 - INFO - IDS monitoring stopped.
+2025-08-12 18:33:12.806 - INFO - Interface: Realtek RTL8821CE 802.11ac PCIe Adapter, IP: 10.105.155.111
+2025-08-12 18:33:12.832 - INFO - Promiscuous mode enabled.
+2025-08-12 18:33:12.836 - INFO - IDS started with protocol 0, bound to 10.105.155.111.
+2025-08-12 18:34:22.440 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 11 ports)
+2025-08-12 18:34:35.088 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 23 ports)
+2025-08-12 18:34:45.131 - WARNING - Possible Port Scan Detected: From 10.105.155.111 (Scanned 23 ports)
+2025-08-12 18:34:54.481 - INFO - IDS monitoring stopped.
