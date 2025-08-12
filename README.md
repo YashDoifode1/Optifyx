@@ -130,8 +130,8 @@ Build an IDS using:
 
 
 ### 🔐 Task 5 – IDS System GUI
-<img src="screenshots/6.png" width="500"/>
-<img src="screenshots/6.2.png" width="500"/>
+<img src="../screenshots/6.png" width="500"/>
+<img src="../screenshots/6.2.png" width="500"/>
 
 ## 👨‍💻 About Me
 
